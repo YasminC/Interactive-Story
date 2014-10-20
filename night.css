@@ -1,0 +1,248 @@
+html, body{
+  height:100%;
+}
+
+body{
+  background-color:#000000;
+  background-image:url(flashlight.jpeg);
+  background-repeat:no-repeat;
+  background-position:50% 50%;
+  cursor:crosshair;
+}
+
+.left{
+  width:25%;
+  float:left;
+}
+.right{
+  width:75%;
+  float:right;
+}
+.footer{
+  margin-top:2em;
+  position: relative;
+}
+.greeting{
+  background-color:rgba(138, 138, 138, 0.5);
+  position:absolute;
+  width:15em;
+  height:10em;
+  border-radius:3.5em;
+  top:-70%;
+  left:30%;
+}
+
+
+#flipbook{
+    margin: 4% auto 0;
+    width:100%;
+    max-width:900px;
+    height:auto;
+    -webkit-box-shadow: 0 4px 10px #666;
+  -moz-box-shadow: 0 4px 10px #666;
+  -ms-box-shadow: 0 4px 10px #666;
+  -o-box-shadow: 0 4px 10px #666;
+  box-shadow: 0 4px 10px #666;
+  -moz-transition:margin-left 0.2s ease-in-out;
+  -o-transition:margin-left 0.2s ease-in-out;
+  -ms-transition:margin-left 0.2s ease-in-out;
+  transition:margin-left 0.2s ease-in-out;
+  background-image:url();
+  background-repeat:no-repeat;
+  background-position:50% 50%;
+  cursor:crosshair;
+}
+
+#flipbook .shadow,{
+  -webkit-box-shadow: 0 4px 10px #666;
+  -moz-box-shadow: 0 4px 10px #666;
+  -ms-box-shadow: 0 4px 10px #666;
+  -o-box-shadow: 0 4px 10px #666;
+  box-shadow: 0 4px 10px #666;
+}
+.sheet{
+    height:400px;
+    max-width:900px;
+    width:100%;
+}
+#even{
+  padding:8% 0;
+}
+#odd,
+#even{
+  background-color:#000000;
+  background-image:url();
+  background-repeat:no-repeat;
+  background-position:50% 50%;
+  cursor:crosshair;
+}
+.sheet,
+.hard{
+  background-color:#000000;
+  background-image:url();
+  background-repeat:no-repeat;
+  background-position:50% 50%;
+  cursor:crosshair;
+}
+
+#flipbook .page{
+    margin: 0 auto;
+    width:100%;
+    max-width:900px;
+    height:600px;
+    line-height:300px;
+    font-size:20px;
+    text-align:center;
+}
+
+#flipbook .page-wrapper{
+    -webkit-perspective:2000px;
+    -moz-perspective:2000px;
+    -ms-perspective:2000px;
+    -o-perspective:2000px;
+    perspective:2000px;
+}
+
+#flipbook .hard{
+    color:#333;
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+    font-weight:bold;
+}
+
+/* #flipbook .odd{
+    background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #FFF), color-stop(1, #DADADA));
+    background-image:-webkit-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-moz-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-ms-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-o-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+    
+}
+
+#flipbook .even{
+    background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
+    background-image:-webkit-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-moz-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-ms-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-o-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:linear-gradient(left, #fff 95%, #dadada 100%);
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+} */
+
+
+
+.image{
+  width:100%;
+    max-width:65%;
+    height:100%;
+    margin: 6em auto;
+}
+h1, h2, h3, h4, p{
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
+.light_cord{
+  height:20em;
+  width:0.5em;
+  background-color: #fff;
+  position:absolute;
+  top:-5px;
+  -moz-animation: 3s ease 0s normal none infinite swing;
+    -moz-transform-origin:top;
+    -webkit-animation:swing 3s infinite ease-in-out;
+    -webkit-transform-origin:top;
+}
+
+/*animation*/
+.animation{
+   width:400px;
+  height: 200px;
+}
+.anim{
+  width:400px;
+  height: 200px;
+  position:absolute;
+  top:480px;
+}
+.anim img{
+  width:400px;
+  height: 200px;
+}
+
+
+/*fade in help text (greeting) */
+
+@-webkit-keyframes fade_in{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+@-moz-keyframes fade_in{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+@-ms-keyframes fade_in{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+
+/* swing the light cord */
+
+@-moz-keyframes swing{
+    0%{-moz-transform:rotate(-1deg)}
+    50%{-moz-transform:rotate(1deg)}
+    100%{-moz-transform:rotate(-1deg)}
+}
+@-webkit-keyframes swing{
+    0%{-webkit-transform:rotate(-1deg)}
+    50%{-webkit-transform:rotate(1deg)}
+    100%{-webkit-transform:rotate(-1deg)}
+}
+@-ms-keyframes swing{
+    0%{-webkit-transform:rotate(-1deg)}
+    50%{-webkit-transform:rotate(1deg)}
+    100%{-webkit-transform:rotate(-1deg)}
+}
+
+/*Media Query*/
+@media only screen and (max-width: 1276px) {
+  .right{
+    width:100%;
+    float:none;
+  }
+  .left{
+    float:none;
+    height:11em;
+  }
+.anim{
+  position:relative;
+  top:0;
+
+  -webkit-animation: none;
+   -moz-animation: none;
+   -ms-animation: none;
+   -o-animation: none;
+   -animation: none;
+
+}
+.greeting{
+  top:0;
+  left:95%;
+}
+}
